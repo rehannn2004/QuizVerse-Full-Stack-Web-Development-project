@@ -1,0 +1,27 @@
+quiz-app/
+├── backend/ # Node.js + Express backend
+│ ├── app.js
+│ ├── server.js
+│ ├── config/ # Database config
+│ ├── controllers/ # Route controllers (Auth, Chat, Quiz, Leaderboard)
+│ ├── middlewares/ # Custom middlewares
+│ ├── models/ # Mongoose models
+│ ├── routes/ # API routes
+│ ├── seed/ # Data seeding scripts
+│ └── utils/ # Utility functions
+│
+├── frontend/ # React frontend
+│ ├── public/ # Public HTML
+│ └── src/
+│    ├── components/ # Reusable UI components
+│    │ ├── Auth/ # Login, Register
+│    │ ├── Chat/ # ChatBox, Message
+│    │ ├── Layout/ # Navbar, Footer, PrivateRoute
+│    │ ├── Leaderboard/ # Leaderboard UI
+│    │ └── Quiz/ # Quiz, QuizList, QuizResult
+│    ├── context/ # React Context (Auth)
+│    ├── services/ # API services
+│    └── styles/ # CSS files
+│
+├── .gitignore
+└── package.json # Root package.json
