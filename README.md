@@ -24,7 +24,8 @@ QuizVerse is a full-stack web application developed as a course project for Web 
 - Node.js and npm installed on your machine
 - MongoDB database (local or cloud-based like MongoDB Atlas)
 
-### Setup Backend
+### Setup 
+
 ```bash
 cd server
 npm install
@@ -35,7 +36,6 @@ npm install
 
 npm start
 
-### Setup Frontend
 cd client
 npm install
 npm start
